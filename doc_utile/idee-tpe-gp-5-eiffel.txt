@@ -1,0 +1,218 @@
+Mettre son nom avec une couleur attribué pour savoir qui ses avec un numéro si plusieurs ordi son utiliser ou téléphone.
+
+LUNDI 15 OCTOBRE
+
+Comment rendre plus ludique un parc communal pour enfant?
+
+Notre projet est de récupérer de l'énergie mécanique créée grâce aux différentes attractions pour enfant et de la transformer en énergie électrique. 
+
+
+
+1- Avec l'énergie récupérée on peut :
+    
+    - mettre en libre service une borne de recharge pour les adultes 
+    - mettre un jeu ludique : un tableau qui permet aux enfants d'apprendre les couleurs 
+    - mettre une jauge qui se remplie selon l'énergie qui se crée et qui lance une musique par exemple.
+    - mettre une application qui dit aux enfants de faire des activités( par exemple fait trois tours de tourniquets ou de balançoire ) et donne une lettre a chaque activités a la fin un mot apparait.
+    création d'un tableau diffusant des histoire si des objectif sont atteint.
+
+crée une application mobile qui permettrai au enfant d’appendre les forme et couleur en interaction avec le parc.
+
+
+
+Chose à faire:
+	* cahier des charges:
+	* bête à corne
+	* diagramme pieuvre
+	* liste des obligations
+	* analyse du besoin
+	* Norme en vigueur
+	* différente attraction + définition
+	* ACV interne et externe
+
+Modéliser un manège et le montrer au tableau comme exemple.( le tourniquet) 
+
+
+chaque personne: une attraction classique (comment on y récupère l'électriciter) + une nouvelle attraction
+
+
+
+
+
+liens utile:
+    https://openclassrooms.com/fr/courses/3676841-realisez-le-cahier-des-charges-dun-projet-digital/3676886-que-contient-un-cahier-des-charges
+  
+   https://www.rtflash.fr/produire-l-electricite-en-abondance-grace-mouvement/article 
+    appinventor.mit.edu
+    pour lire mp3 sur carte Arduino : http://idehack.com/blog/jouer-un-fichier-audio-wav-avec-larduino/
+    
+    
+    
+
+
+tableau d’apprentissage des couleur
+	
+
+
+*I - tourniquet 
+	
+	  https://bases-brevets.inpi.fr/fr/document/FR2364675/publications.html?p=5&s=1544445283301&cHash=0d40efacf598db4eb5490f8c8e9beebe
+	http://hmf.enseeiht.fr/travaux/bei/beiere/book/export/html/238.
+	Pièces du tourniquet: un plateau de 1,50 m de diamètre, des barres ou des bancs, un axe central ou les enfants pourront s'aider a tourner, une hauteur de 70cm avec 10 cm du sol, un sol en tartan sur 2 m autour du tourniquet (normes),
+	
+	
+	Quel génératrice? génératrice synchrone 
+	la génératrice utilise une énergie puis le converti en énergie électrique ici notre énergie de départ et une énergie cinétique
+	
+	
+	
+	
+	
+	
+*IMPORTANT
+
+
+http://server.idemdito.org/electro/elec/dynamo-fonct.htm       LIEN DU FONCTIONNEMENT D'UNE DYNAMO
+
+Jusque dans les années 1970, les automobiles utilisaient un régulateur électromécanique pour réguler la tension de sortie de leur dynamo ou de leur alternateur. Ces régulateurs utilisent plusieurs relais commutant des résistances afin de faire varier le courant d'excitation de l'alternateur et rendre ainsi sa tension de sortie indépendante du régime de rotation du moteur et de la consommation électrique. Associé à une dynamo son rôle était aussi d'isoler la dynamo à bas régime, afin que celle-ci ne décharge pas la batterie en se comportant comme un moteur. 
+
+1450 * 12 / 18.5 = 908 tour par minute avec une perceuse et une dynamo de 6 volts et 3 Watt : A FAIRE : REGARDER LA VITESSE MOYENNE D'UN TOURNIQUET 
+http://www.hags.fr/fr-fr/guides-dachat-hags/best-sellers-aire-de-jeux-hags/tourniquet-spinmee
+ En théorie il nous faudra une dynamo de 6 à 12 V et de minimum 10 Watt
+
+
+*III - diffusion de musique lors de la réussite d'objectif 
+
+
+
+*IV - balançoire à double assise
+
+
+
+
+Pour produire de l'électricité : rotor, multiplicateur, générateur
+
+
+http://60.snuipp.fr/IMG/pdf/doc_11_aires_collectives_de_jeux_1_.pdf
+https://www.carnetdumaker.net/articles/utiliser-des-leds-rgb-avec-une-carte-arduino-genuino/
+
+
+liste matériel pour le jeu :
+    - Arduino Mega 2560 X
+    - amplificateur de classe D X
+    - 6 boutons X
+    - 6 LED de couleurs différentes X
+    - des câbles de connexion X
+    - 1 Haut-parleur X
+    - 1 lecteur de carte SD X
+    -v lisseurt de courrant
+
+pour l'arduino il nous faut un lisseur qui régule la tension 
+
+
+
+
+
+
+
+https://fr.ulule.com/tourniquet-electricite/       !!!!!!!!!!!!!!!!!!!
+
+
+connections lecteur SD:
+    
+		* Connect the 5V pin to the 5V pin on the Arduino
+		* Connect the GND pin to the GND pin on the Arduino
+		* Connect CLK to pin 13 or 52
+		* Connect DO to pin 12 or 50
+		* Connect DI to pin 11 or 51
+		* Connect CS to pin 10 or 53
+
+//pin dans les 50 pour nous
+
+
+
+
+
+
+séance 1:
+    recherche du thème
+    début de réflexion sur les attractions
+
+Séance 2:
+    fin des recherches sur les attractions
+    attribution des couples attractions classiques et nouvelles 
+    tentative de modélisation d'un tourniquet par Lucas et Ayman
+
+Séance 3
+	réalisation des diagramme pieuvres + tableau qui définit les fonctions
+	réalisation du diagramme bête à corne
+	
+Séance 4
+	structure de l'analyse fonctionnelle 
+	diagramme FAST
+	début du SADT
+
+Séance 5:
+	finition des diagrammes
+	réalisations des groupes : tourniquet ---> Lucas et Marc, jeu ---> Guillaume et Ayman
+	idée du jeu + solution tech en recherche (Arduino)
+	début recherche mécanique sur tourniquet + alternateur vs dynamo
+	
+Séance 6:
+	    recherche tableau couleur + début de programme + liste de matériel
+	   différence entre dynamo et alternateur + pk tournique et pas autre + système tounirquet + normes du touniquet 
+	
+Séance 7:
+	génératrice et composants de notre tourniquet 
+	début du code C++, a upload su gg drive
+	recherche de code bouton plus led RGB
+
+Séance 8:
+	préparation diapo
+	correction code arduino
+	création d'une vidéo "vue d'artiste"
+	modification du FASTs
+	
+	
+Séance 9 : 
+	expérimentation et acquisition du programme avec une carte Arduino du lycée
+	choix des materiaux pour le tourniquet
+	
+Séance 10:
+ schémas du montage arduino sur Fritzing ----> Platine d'essai, vue schématique, circuit imprimé
+ simplification du code Arduino pour l'expérimentation 
+ expérimentation en méca sur la dynamo + pont de diodes
+ 
+ Seance 11 : 
+     Test LED rgb et test des circuits du programme
+     Test de la dynamo, non au pt de diodes et calculs du rendement
+	
+ Séance 12 : 
+     Recherche sur tourniquet et capacité de production
+     Commencent  du carnet de bord de 20 pages
+     Tentative d’émettre un bruit avec le programme arduino
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

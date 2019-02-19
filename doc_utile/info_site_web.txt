@@ -1,0 +1,11 @@
+utilisation de wordpress
+serveur rpi (perso)
+utilisation d'un dns compatible ip dynamique
+
+serveur pi:
+https://raspbian-france.fr/installer-wordpress-raspberry-pi-nginx/
+https://raspbian-france.fr/installer-nginx-raspbian-raspberry/
+
+mise en place dynDNS site tpe (redirection sans ip avec un ip dynamique):
+https://raspbian-france.fr/mettre-en-ligne-serveur-web-raspbian-dydns-port-forwarding/
+(accord papa)
