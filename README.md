@@ -13,6 +13,6 @@ lien du diaporama : https://drive.google.com/open?id=1le1UCz906h6vjDY-hg_bYrD2ZL
 
 
 
-Création du TPE: DINDART Guillaume, RUIZ Luca, RATTON Marc, KACHMAR Aymen
+Création du TPE: DINDART Guillaume, RUIZ Lucas, RATTON Marc, KACHMAR Ayman
 
 Gestion du github: DINDART Guillaume
