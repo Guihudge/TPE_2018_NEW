@@ -6,12 +6,12 @@
 TMRpcm audio;
 File myFile;
 
-const int pinbuton1 = 4; //33
+const int pinbuton1 = 33; //33
 const int pinbuton2 = 12; 
 const int pinbuton3 = 37;
 const int pinbuton4 = 39;
 const int pinbuton5 = 41;
-const int pinbuton6 = 2;//35
+const int pinbuton6 = 35;//35
 
 const int temps_delais = 5000;
 
@@ -44,25 +44,25 @@ const int temps_delais = 5000;
  *  B:15
  *  
  */
-const byte PIN_LED_ROUGE = 10; //23
+const byte PIN_LED_ROUGE = 23; //23
 
-const byte PIN_LED2_R = 33; //4
-const byte PIN_LED2_G = 5;
-const byte PIN_LED2_B = 6;
+const byte PIN_LED2_R = 2; //4
+const byte PIN_LED2_G = 3;
+const byte PIN_LED2_B = 4;
 
-const byte PIN_LED3_R = 7;
-const byte PIN_LED3_G = 10; //8
-const byte PIN_LED3_B = 9;
+const byte PIN_LED3_R = 5;
+const byte PIN_LED3_G = 6; //8
+const byte PIN_LED3_B = 7;
 
-const byte PIN_LED4_R = 23; //10
-const byte PIN_LED4_G = 11;
-const byte PIN_LED4_B = 35; //12
+const byte PIN_LED4_R = 8; //10
+const byte PIN_LED4_G = 9;
+const byte PIN_LED4_B = 10; //12
 
-const byte PIN_LED5_R = 13;
-const byte PIN_LED5_G = 14;
-const byte PIN_LED5_B = 15;
+const byte PIN_LED5_R = 11;
+const byte PIN_LED5_G = 12;
+const byte PIN_LED5_B = 13;
 
-const byte PIN_LED_BLANC = 8; //22
+const byte PIN_LED_BLANC = 22; //22
 
 void setup() {
   // put your setup code here, to run once:
